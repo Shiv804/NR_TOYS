@@ -1,0 +1,151 @@
+/* सामान्य डिज़ाइन और फॉन्ट */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* हेडर डिज़ाइन */
+header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* वेलकम सेक्शन */
+.welcome-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 25px 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.welcome-section h2 {
+    color: #ff7e5f;
+    font-size: 20px;
+    margin-bottom: 10px;}
+
+/* प्रोडक्ट्स सेक्शन */
+.products-container {
+    padding: 20px 15px;
+}
+
+.products-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.product-card {
+    background: hwb(0 100% 0%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+/* प्रोडक्ट इमेज की सेटिंग */
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 12px;
+}
+
+.product-card button, .submit-btn {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product-card button:hover, .submit-btn:hover {
+    background-color: #e56747;
+}
+
+/* संपर्क फॉर्म सेक्शन */
+.contact-section {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* फुटर */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+    margin-top: 20px;
+}
